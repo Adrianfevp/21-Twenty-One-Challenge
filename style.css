@@ -1,0 +1,101 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+
+#principal {
+  display: grid;
+  grid-template-columns: repeat(4, calc(290px * 0.9));
+  grid-template-rows: 1fr;
+  gap: 10px;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #444, #222);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#principal > div {
+  background-color: rgba(165, 154, 154, 0.7);
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#principal > div > div {
+  padding-bottom: 3px;
+}
+
+#principal > div > h4 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff69b4;
+}
+
+.conjunto-cartas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to bottom, #444, #222);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.carta-user {
+  width: 76px;
+  margin: 3px 5px;
+  background-color: rgba(165, 154, 154, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#rounda {
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #444, #222);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+button {
+  background-color: #dfdfdf;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+
+.player-column {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin-right: 5%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.cartas {
+  margin-top: 10px;
+}
+
+.carta {
+  display: inline-block;
+  width: 50px;
+  margin-right: 5px;
+}
+.resultado-final{
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+.Monte1{
+height: 70px;
+}
+.Monte2{
+  height: 70px;
+  }
